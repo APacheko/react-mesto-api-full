@@ -105,7 +105,7 @@ class Api {
 }
 
 const api = new Api({
-  url: 'https://api.andreypacheco.nomoredomains.rocks/',
+  url: 'https://api.andreypacheco.nomoredomains.rocks',
   headers: {
     'Content-Type': 'application/json',
   }

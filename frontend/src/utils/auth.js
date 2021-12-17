@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://api.andreypacheco.nomoredomains.rocks/';
+export const BASE_URL = 'https://api.andreypacheco.nomoredomains.rocks';
 
 const checkResult = (res) => {
   if (res.ok) {

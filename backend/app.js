@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -13,8 +14,11 @@ const { requestLogger, errorLogger } = require('./middlewares/logger');
 const NotFoundError = require('./errors/NotFoundError');
 
 const allowedCors = [
+  'https://andreypacheco.nomoredomains.rocks',
+  'http://andreypacheco.nomoredomains.rocks',
   'https://andreypacheco.nomoredomains.rocks/',
   'http://andreypacheco.nomoredomains.rocks/',
+  'andreypacheco.nomoredomains.rocks',
   'http://localhost:3000',
   'https://localhost:3000',
   'http://localhost:3001',

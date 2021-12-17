@@ -26,6 +26,7 @@
   "scripts": {
     "start": "nodemon app.js",
     "lint": "npx eslint .",
+    "deploy": "scp -r ./* andrey@51.250.28.60:/home/andrey/backend",
     "dev": "nodemon app.js"
   },
   "repository": {
