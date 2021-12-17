@@ -3,7 +3,7 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-## ip sercer: 51.250.28.60
+## ip server: 51.250.28.60
 
 ## frontend: https://andreypacheco.nomoredomains.rocks
 
