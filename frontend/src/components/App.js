@@ -52,7 +52,6 @@ function App() {
     Promise.all([api.getUserData(), api.getCards()])
       .then((res) => {
         const [user, cards] = res;
-        console.log('USER-CARDS', user, cards);
         setCurrentUser(user);
         setCards(cards);
       })
