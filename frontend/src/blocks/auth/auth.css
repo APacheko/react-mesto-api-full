@@ -1,0 +1,14 @@
+.auth {
+  display: flex;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 358px;
+  margin: auto;
+}
+
+@media (max-width: 617px) {
+  .auth {
+    max-width: 260px
+  }
+}
